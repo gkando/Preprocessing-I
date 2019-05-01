@@ -172,6 +172,7 @@ body {
   .columns:first-child {
     margin-left: 0;
   }
+  /* mixins examples (calling a function) */
   .one.column,
   .one.columns {
     width: 4.66666667%;
@@ -279,6 +280,7 @@ p {
   margin-top: 0;
   margin-bottom: 2.5rem;
 }
+/* nesting example */
 a {
   color: #1eaedb;
 }

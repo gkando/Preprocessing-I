@@ -125,6 +125,7 @@ html, body {
 	.column:first-child, .columns:first-child {
 		margin-left: 0;
 	}
+	/* mixins examples (calling a function) */
 	.one.column,
 	.one.columns          { .grid-column-width(1);  }
 	.two.columns          { .grid-column-width(2);  }
@@ -177,6 +178,7 @@ p {
 	margin-bottom: 2.5rem;
 }
 
+/* nesting example */
 a {
 	color: @link-color;
 	&:hover {
